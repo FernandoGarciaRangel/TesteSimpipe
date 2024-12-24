@@ -1,0 +1,11 @@
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\bin\Release\TesteSimpipe.exe.config
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\bin\Release\TesteSimpipe.exe
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\bin\Release\TesteSimpipe.pdb
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\obj\Release\TesteSimpipe.csproj.AssemblyReference.cache
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\obj\Release\TesteSimpipe.FrmBomba.resources
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\obj\Release\TesteSimpipe.FormPrincipal.resources
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\obj\Release\TesteSimpipe.Properties.Resources.resources
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\obj\Release\TesteSimpipe.csproj.GenerateResource.cache
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\obj\Release\TesteSimpipe.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\obj\Release\TesteSimpipe.exe
+C:\Users\Fernando Garcia\Desktop\Simpipe\CalcEquipamentos\obj\Release\TesteSimpipe.pdb

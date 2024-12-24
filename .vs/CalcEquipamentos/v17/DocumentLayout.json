@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|c:\\users\\fernando garcia\\desktop\\github\\testesimpipe\\view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|c:\\users\\fernando garcia\\desktop\\github\\testesimpipe\\view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\models\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:models\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\view\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\view\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 174,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "View\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\Simpipe\\CalcEquipamentos\\View\\FormPrincipal.cs [Design]",
+              "RelativeToolTip": "..\\..\\Simpipe\\CalcEquipamentos\\View\\FormPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:38:18.382Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmBomba.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmBomba.cs",
+              "RelativeDocumentMoniker": "View\\FrmBomba.cs",
+              "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmBomba.cs [Design]",
+              "RelativeToolTip": "View\\FrmBomba.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:38:41.148Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bomba.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\Models\\Bomba.cs",
+              "RelativeDocumentMoniker": "Models\\Bomba.cs",
+              "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\Models\\Bomba.cs",
+              "RelativeToolTip": "Models\\Bomba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T02:57:00.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "View\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FormPrincipal.cs",
+              "RelativeToolTip": "View\\FormPrincipal.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwHcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:38:25.925Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 226,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmBomba.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmBomba.cs",
+              "RelativeDocumentMoniker": "View\\FrmBomba.cs",
+              "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmBomba.cs",
+              "RelativeToolTip": "View\\FrmBomba.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T02:45:32.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
