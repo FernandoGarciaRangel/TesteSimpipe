@@ -40,7 +40,8 @@ namespace TesteSimpipe
             var fatorPotencia = (double)inputFatorPotencia.Value;
             Bomba model = new Bomba(pressaoDescarga, pressaoSuccao, vazaoBombeio, eficienciaBomba, eficienciaMotor, fatorPotencia);
 
-
+            //apagar aqui
+            //var testemeusaco = "";
           
 
             PotenciaHidraulicaInput.Text = model.CalcularPotenciaHidraulica().ToString();
