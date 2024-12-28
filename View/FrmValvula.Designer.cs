@@ -44,7 +44,7 @@
             this.groupBox16 = new System.Windows.Forms.GroupBox();
             this.outputVazaoValvula = new System.Windows.Forms.TextBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.label26 = new System.Windows.Forms.Label();
+            this.labelFormula = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.inputFormula = new System.Windows.Forms.ComboBox();
             this.groupBox2.SuspendLayout();
@@ -67,7 +67,7 @@
             // 
             // inputCoeficienteValvula
             // 
-            this.inputCoeficienteValvula.Location = new System.Drawing.Point(188, 22);
+            this.inputCoeficienteValvula.Location = new System.Drawing.Point(273, 22);
             this.inputCoeficienteValvula.Name = "inputCoeficienteValvula";
             this.inputCoeficienteValvula.Size = new System.Drawing.Size(120, 20);
             this.inputCoeficienteValvula.TabIndex = 41;
@@ -129,7 +129,7 @@
             // 
             // inputPressaoDescarga
             // 
-            this.inputPressaoDescarga.Location = new System.Drawing.Point(188, 25);
+            this.inputPressaoDescarga.Location = new System.Drawing.Point(273, 25);
             this.inputPressaoDescarga.Name = "inputPressaoDescarga";
             this.inputPressaoDescarga.Size = new System.Drawing.Size(120, 20);
             this.inputPressaoDescarga.TabIndex = 4;
@@ -146,7 +146,7 @@
             // 
             // inputDensidadeRelativa
             // 
-            this.inputDensidadeRelativa.Location = new System.Drawing.Point(188, 22);
+            this.inputDensidadeRelativa.Location = new System.Drawing.Point(273, 22);
             this.inputDensidadeRelativa.Name = "inputDensidadeRelativa";
             this.inputDensidadeRelativa.Size = new System.Drawing.Size(120, 20);
             this.inputDensidadeRelativa.TabIndex = 42;
@@ -184,7 +184,7 @@
             // 
             // inputPressaoSuccao
             // 
-            this.inputPressaoSuccao.Location = new System.Drawing.Point(188, 25);
+            this.inputPressaoSuccao.Location = new System.Drawing.Point(273, 25);
             this.inputPressaoSuccao.Name = "inputPressaoSuccao";
             this.inputPressaoSuccao.Size = new System.Drawing.Size(120, 20);
             this.inputPressaoSuccao.TabIndex = 40;
@@ -205,7 +205,7 @@
             this.groupBox16.BackColor = System.Drawing.SystemColors.ControlDark;
             this.groupBox16.Controls.Add(this.outputVazaoValvula);
             this.groupBox16.Controls.Add(this.comboBox5);
-            this.groupBox16.Controls.Add(this.label26);
+            this.groupBox16.Controls.Add(this.labelFormula);
             this.groupBox16.Location = new System.Drawing.Point(47, 45);
             this.groupBox16.Name = "groupBox16";
             this.groupBox16.Size = new System.Drawing.Size(620, 56);
@@ -214,7 +214,7 @@
             // 
             // outputVazaoValvula
             // 
-            this.outputVazaoValvula.Location = new System.Drawing.Point(188, 25);
+            this.outputVazaoValvula.Location = new System.Drawing.Point(273, 22);
             this.outputVazaoValvula.Name = "outputVazaoValvula";
             this.outputVazaoValvula.ReadOnly = true;
             this.outputVazaoValvula.Size = new System.Drawing.Size(120, 20);
@@ -233,16 +233,16 @@
             this.comboBox5.TabIndex = 2;
             this.comboBox5.Text = "HP";
             // 
-            // label26
+            // labelFormula
             // 
-            this.label26.AutoSize = true;
-            this.label26.ForeColor = System.Drawing.Color.Red;
-            this.label26.Location = new System.Drawing.Point(24, 25);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(128, 13);
-            this.label26.TabIndex = 0;
-            this.label26.Text = "Vazão através da Válvula";
-            this.label26.Click += new System.EventHandler(this.label26_Click);
+            this.labelFormula.AutoSize = true;
+            this.labelFormula.ForeColor = System.Drawing.Color.Red;
+            this.labelFormula.Location = new System.Drawing.Point(24, 25);
+            this.labelFormula.Name = "labelFormula";
+            this.labelFormula.Size = new System.Drawing.Size(128, 13);
+            this.labelFormula.TabIndex = 0;
+            this.labelFormula.Text = "Vazão através da Válvula";
+            this.labelFormula.Click += new System.EventHandler(this.label26_Click);
             // 
             // button1
             // 
@@ -312,7 +312,7 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.GroupBox groupBox16;
         private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label labelFormula;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox inputFormula;
         private System.Windows.Forms.TextBox inputPressaoDescarga;

@@ -37,16 +37,6 @@ namespace TesteSimpipe
                 frmAtivo.Close();
             }
             }
-
-        private void ActiveButton(Button frmAtivo)
-        {
-            foreach (Control ctrl in NavBar.Controls)
-            {
-                ctrl.ForeColor = Color.White;
-            }
-            frmAtivo.ForeColor = Color.Red;
-        }
-
         
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -105,7 +95,7 @@ namespace TesteSimpipe
 
         private void ajudaToolStripMenuItem1_Click(object sender, EventArgs e)
         {            
-            MessageBox.Show("Teste");
+            MessageBox.Show("Clique em Bomba ou válvula para iniciar os cálculos, logo após insira os dados para calculo. Letras vermelhas são ");
 
         }
 

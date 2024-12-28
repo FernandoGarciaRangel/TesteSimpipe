@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|c:\\users\\fernando garcia\\desktop\\github\\testesimpipe\\view\\frmvalvula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\frmvalvula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\models\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:models\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\view\\frmvalvula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\frmvalvula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|c:\\users\\fernando garcia\\desktop\\github\\testesimpipe\\view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|c:\\users\\fernando garcia\\desktop\\github\\testesimpipe\\view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\view\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|c:\\users\\fernando garcia\\desktop\\github\\testesimpipe\\models\\valvula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:models\\valvula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\view\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\models\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:models\\bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\frmbomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|c:\\users\\fernando garcia\\desktop\\github\\testesimpipe\\view\\frmvalvula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C761B6BF-5939-4555-9D11-4DF908C3B5B2}|TesteSimpipe.csproj|solutionrelative:view\\frmvalvula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 319,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "View\\FormPrincipal.cs",
@@ -55,26 +51,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "FrmBomba.cs",
               "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmBomba.cs",
               "RelativeDocumentMoniker": "View\\FrmBomba.cs",
               "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmBomba.cs",
               "RelativeToolTip": "View\\FrmBomba.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T01:30:34.79Z",
+              "WhenOpened": "2024-12-28T20:47:03.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "FrmBomba.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmBomba.cs",
+              "RelativeDocumentMoniker": "View\\FrmBomba.cs",
+              "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmBomba.cs [Design]",
+              "RelativeToolTip": "View\\FrmBomba.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T20:46:38.085Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Bomba.cs",
               "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\Models\\Bomba.cs",
               "RelativeDocumentMoniker": "Models\\Bomba.cs",
               "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\Models\\Bomba.cs",
               "RelativeToolTip": "Models\\Bomba.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAADwv2MAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T21:58:31.662Z",
               "EditorCaption": ""
@@ -87,53 +95,22 @@
               "RelativeDocumentMoniker": "View\\FormPrincipal.cs",
               "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FormPrincipal.cs",
               "RelativeToolTip": "View\\FormPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T01:38:25.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FrmValvula.cs",
               "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmValvula.cs",
               "RelativeDocumentMoniker": "View\\FrmValvula.cs",
               "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmValvula.cs",
               "RelativeToolTip": "View\\FrmValvula.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAowE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T16:38:18.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmValvula.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmValvula.cs",
-              "RelativeDocumentMoniker": "View\\FrmValvula.cs",
-              "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\View\\FrmValvula.cs [Design]",
-              "RelativeToolTip": "View\\FrmValvula.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T03:14:53.714Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 319,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Valvula.cs",
-              "DocumentMoniker": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\Models\\Valvula.cs",
-              "RelativeDocumentMoniker": "Models\\Valvula.cs",
-              "ToolTip": "C:\\Users\\Fernando Garcia\\Desktop\\GitHub\\TesteSimpipe\\Models\\Valvula.cs",
-              "RelativeToolTip": "Models\\Valvula.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAApwFAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T03:10:25.35Z",
               "EditorCaption": ""
             }
           ]

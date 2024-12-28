@@ -68,22 +68,27 @@ namespace TesteSimpipe
 
                 // 4) Calcular vazão e perda de pressão
                 double Q = Valvula.CalcularVazao();
-                double deltaP = new Valvula(
-                    Valvula.PressaoDescarga,
-                    Valvula.PressaoSuccao,
-                    Valvula.CoeficienteValvula,
-                    Valvula.DensidadeRelativaProduto
-                ).CalcularPerdaPressao(Q);
+                double perdaPressao = new Valvula(Valvula.PressaoDescarga,Valvula.PressaoSuccao,Valvula.CoeficienteValvula,Valvula.DensidadeRelativaProduto).CalcularPerdaPressao(Q);
 
                 // 5) Calcular coeficiente (reverso)
                 double CVcalculado = Valvula.CalcularCoeficienteValvula(Q);
 
+            if(inputFormula.Text == "Vazão Através da Válvula") {
+                labelFormula.Text = "Vazão Através da Válvula";
+                outputVazaoValvula.Text = Q.ToString();
+            }else if(inputFormula.Text == "Perda de Pressão Através da Válvula")
+            {
+                labelFormula.Text = "Perda de Pressão Através da Válvula";
+                outputVazaoValvula.Text = perdaPressao.ToString();
+            }else if (inputFormula.Text == "Coeficiente de Vazão"){
+                labelFormula.Text = "Coeficiente de Vazão";
+                outputVazaoValvula.Text = CVcalculado.ToString();
+            }
 
-            outputVazaoValvula.Text = Q.ToString();
                 // 6) Exibir resultados
                 MessageBox.Show(
                     $"Vazão (Q) = {Q}\n" +
-                    $"ΔP = {deltaP}\n" +
+                    $"ΔP = {perdaPressao}\n" +
                     $"CV calculado = {CVcalculado}"
                 );
             }

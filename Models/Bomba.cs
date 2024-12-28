@@ -33,14 +33,29 @@ namespace TesteSimpipe.Models
         public double FatorPotenciaMotor { get; set; }
 
         // Métodos de Cálculo
-        public double CalcularPotenciaHidraulica()
+        public double CalcularPotenciaHidraulica(string Unidade)
         {
-            return ((PressaoDescarga - PressaoSuccao) * VazaoVolumetrica) / EficienciaHidraulica;
+            
+            double KW = 1000;
+            double HP = 745.7;
+            if(Unidade == "KW")
+            {
+                return (((PressaoDescarga - PressaoSuccao) * VazaoVolumetrica) / EficienciaHidraulica) / KW;
+            }
+            else if(Unidade == "HP") 
+            {
+                return (((PressaoDescarga - PressaoSuccao) * VazaoVolumetrica) / EficienciaHidraulica) / HP;
+            }
+            else
+            {
+                throw new Exception("Insira uma unidade de medida e tente de novo!");
+            }
+           
         }
 
-        public double CalcularPotenciaMotor()
+        public double CalcularPotenciaMotor(string Unidade)
         {
-            double potenciaHidraulica = CalcularPotenciaHidraulica();
+            double potenciaHidraulica = CalcularPotenciaHidraulica(Unidade);
             return potenciaHidraulica / (EficienciaMotor * FatorPotenciaMotor);
         }
 

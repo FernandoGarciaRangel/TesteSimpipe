@@ -35,7 +35,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.PotenciaMotorInput = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.inputUnidadeMedida2 = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.inputEficienciaBomba = new System.Windows.Forms.TextBox();
@@ -51,7 +51,7 @@
             this.label24 = new System.Windows.Forms.Label();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
             this.PotenciaHidraulicaInput = new System.Windows.Forms.TextBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.inputUnidadeMedida1 = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.inputFormula = new System.Windows.Forms.ComboBox();
@@ -116,7 +116,7 @@
             this.groupBox1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.groupBox1.Controls.Add(this.PotenciaMotorInput);
             this.groupBox1.Controls.Add(this.label25);
-            this.groupBox1.Controls.Add(this.comboBox4);
+            this.groupBox1.Controls.Add(this.inputUnidadeMedida2);
             this.groupBox1.Location = new System.Drawing.Point(47, 107);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(620, 56);
@@ -141,17 +141,17 @@
             this.label25.TabIndex = 34;
             this.label25.Text = "Potência do Motor";
             // 
-            // comboBox4
+            // inputUnidadeMedida2
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.inputUnidadeMedida2.FormattingEnabled = true;
+            this.inputUnidadeMedida2.Items.AddRange(new object[] {
             "HP",
             "KW"});
-            this.comboBox4.Location = new System.Drawing.Point(460, 17);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(89, 21);
-            this.comboBox4.TabIndex = 38;
-            this.comboBox4.Text = "HP";
+            this.inputUnidadeMedida2.Location = new System.Drawing.Point(460, 17);
+            this.inputUnidadeMedida2.Name = "inputUnidadeMedida2";
+            this.inputUnidadeMedida2.Size = new System.Drawing.Size(89, 21);
+            this.inputUnidadeMedida2.TabIndex = 38;
+            this.inputUnidadeMedida2.Text = "HP";
             // 
             // label9
             // 
@@ -287,7 +287,7 @@
             // 
             this.groupBox16.BackColor = System.Drawing.SystemColors.ControlDark;
             this.groupBox16.Controls.Add(this.PotenciaHidraulicaInput);
-            this.groupBox16.Controls.Add(this.comboBox5);
+            this.groupBox16.Controls.Add(this.inputUnidadeMedida1);
             this.groupBox16.Controls.Add(this.label26);
             this.groupBox16.Location = new System.Drawing.Point(47, 45);
             this.groupBox16.Name = "groupBox16";
@@ -303,17 +303,17 @@
             this.PotenciaHidraulicaInput.Size = new System.Drawing.Size(120, 20);
             this.PotenciaHidraulicaInput.TabIndex = 3;
             // 
-            // comboBox5
+            // inputUnidadeMedida1
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.inputUnidadeMedida1.FormattingEnabled = true;
+            this.inputUnidadeMedida1.Items.AddRange(new object[] {
             "HP",
             "KW"});
-            this.comboBox5.Location = new System.Drawing.Point(460, 22);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(89, 21);
-            this.comboBox5.TabIndex = 2;
-            this.comboBox5.Text = "HP";
+            this.inputUnidadeMedida1.Location = new System.Drawing.Point(460, 22);
+            this.inputUnidadeMedida1.Name = "inputUnidadeMedida1";
+            this.inputUnidadeMedida1.Size = new System.Drawing.Size(89, 21);
+            this.inputUnidadeMedida1.TabIndex = 2;
+            this.inputUnidadeMedida1.Text = "HP";
             // 
             // label26
             // 
@@ -462,10 +462,10 @@
         private System.Windows.Forms.GroupBox groupBox14;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox inputUnidadeMedida2;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.GroupBox groupBox16;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox inputUnidadeMedida1;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox inputFormula;
