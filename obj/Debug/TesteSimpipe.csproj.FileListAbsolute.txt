@@ -20,3 +20,4 @@ C:\Users\Fernando Garcia\Desktop\GitHub\TesteSimpipe\obj\Debug\TesteSimpipe.cspr
 C:\Users\Fernando Garcia\Desktop\GitHub\TesteSimpipe\obj\Debug\TesteSimpipe.csproj.CoreCompileInputs.cache
 C:\Users\Fernando Garcia\Desktop\GitHub\TesteSimpipe\obj\Debug\TesteSimpipe.exe
 C:\Users\Fernando Garcia\Desktop\GitHub\TesteSimpipe\obj\Debug\TesteSimpipe.pdb
+C:\Users\Fernando Garcia\Desktop\GitHub\TesteSimpipe\obj\Debug\TesteSimpipe.FrmValvula.resources

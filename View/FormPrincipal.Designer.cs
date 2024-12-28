@@ -116,7 +116,7 @@
             this.válvulaToolStripMenuItem});
             this.NavBar.Location = new System.Drawing.Point(9, 48);
             this.NavBar.Name = "NavBar";
-            this.NavBar.Size = new System.Drawing.Size(121, 24);
+            this.NavBar.Size = new System.Drawing.Size(241, 24);
             this.NavBar.TabIndex = 2;
             this.NavBar.Text = "menuStrip3";
             this.NavBar.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip3_ItemClicked);
@@ -133,6 +133,7 @@
             this.válvulaToolStripMenuItem.Name = "válvulaToolStripMenuItem";
             this.válvulaToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.válvulaToolStripMenuItem.Text = "Válvula";
+            this.válvulaToolStripMenuItem.Click += new System.EventHandler(this.válvulaToolStripMenuItem_Click);
             // 
             // label9
             // 

@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace TesteSimpipe.Models
-{
+
+{ 
+
     public class Bomba{
 
         public Bomba()
@@ -41,8 +44,17 @@ namespace TesteSimpipe.Models
             return potenciaHidraulica / (EficienciaMotor * FatorPotenciaMotor);
         }
 
-        // Métodos de Conversão
-        public static double ConverterPressaoParaPa(double valor, string unidade)
+       
+
+    // Métodos de Conversão
+
+        public static double ConverterParaPercentual(double valor)
+        {
+            return valor / 100;
+        }
+        
+
+    public static double ConverterPressaoParaPa(double valor, string unidade)
         {            
             if(unidade == "kgf/cm²")
             {
@@ -71,7 +83,7 @@ namespace TesteSimpipe.Models
 
         public static double ConverterVazaoParaM3s(double valor, string unidade)
         {
-            if(unidade == "m³/h")
+            if(unidade == "m³/s")
             {
                 valor = valor / 3600;
             }else if(unidade == "gpm")
@@ -83,7 +95,7 @@ namespace TesteSimpipe.Models
 
         public static double ConverterVazaoDeM3s(double valor, string unidade)
         {
-            if(unidade == "m³/h")
+            if(unidade == "m³/s")
             {
                 valor = valor * 3600;
             }else if(unidade == "gpm"){ 

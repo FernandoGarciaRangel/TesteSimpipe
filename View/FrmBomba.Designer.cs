@@ -32,11 +32,9 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.PotenciaMotorInput = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -45,36 +43,32 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.inputVazaoBombeio = new System.Windows.Forms.NumericUpDown();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.PotenciaHidraulicaInput = new System.Windows.Forms.TextBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.inputFormula = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.inputEficienciaMotor = new System.Windows.Forms.NumericUpDown();
-            this.inputFatorPotencia = new System.Windows.Forms.NumericUpDown();
-            this.inputPressaoSuccao = new System.Windows.Forms.NumericUpDown();
-            this.inputEficienciaBomba = new System.Windows.Forms.NumericUpDown();
-            this.inputPressaoDescarga = new System.Windows.Forms.NumericUpDown();
-            this.PotenciaHidraulicaInput = new System.Windows.Forms.TextBox();
-            this.PotenciaMotorInput = new System.Windows.Forms.TextBox();
+            this.inputVazaoBombeio = new System.Windows.Forms.TextBox();
+            this.inputEficienciaBomba = new System.Windows.Forms.TextBox();
+            this.inputEficienciaMotor = new System.Windows.Forms.TextBox();
+            this.inputFatorPotencia = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.inputPressaoDescarga = new System.Windows.Forms.TextBox();
+            this.inputPressaoSuccao = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox9.SuspendLayout();
             this.groupBox11.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.inputVazaoBombeio)).BeginInit();
             this.groupBox16.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.inputEficienciaMotor)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputFatorPotencia)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputPressaoSuccao)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputEficienciaBomba)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputPressaoDescarga)).BeginInit();
+            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -121,6 +115,14 @@
             this.groupBox1.TabIndex = 48;
             this.groupBox1.TabStop = false;
             // 
+            // PotenciaMotorInput
+            // 
+            this.PotenciaMotorInput.Location = new System.Drawing.Point(188, 25);
+            this.PotenciaMotorInput.Name = "PotenciaMotorInput";
+            this.PotenciaMotorInput.ReadOnly = true;
+            this.PotenciaMotorInput.Size = new System.Drawing.Size(120, 20);
+            this.PotenciaMotorInput.TabIndex = 4;
+            // 
             // label25
             // 
             this.label25.AutoSize = true;
@@ -135,44 +137,13 @@
             // 
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
-            "HP"});
+            "HP",
+            "KW"});
             this.comboBox4.Location = new System.Drawing.Point(460, 17);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(89, 21);
             this.comboBox4.TabIndex = 38;
             this.comboBox4.Text = "HP";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.Color.Blue;
-            this.label16.Location = new System.Drawing.Point(30, 29);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(98, 13);
-            this.label16.TabIndex = 17;
-            this.label16.Text = "Eficiência do Motor";
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.inputEficienciaMotor);
-            this.groupBox9.Controls.Add(this.label1);
-            this.groupBox9.Controls.Add(this.label16);
-            this.groupBox9.Location = new System.Drawing.Point(47, 417);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(620, 56);
-            this.groupBox9.TabIndex = 49;
-            this.groupBox9.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(491, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 16);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "%";
             // 
             // label9
             // 
@@ -259,13 +230,6 @@
             this.groupBox14.TabIndex = 45;
             this.groupBox14.TabStop = false;
             // 
-            // inputVazaoBombeio
-            // 
-            this.inputVazaoBombeio.Location = new System.Drawing.Point(188, 23);
-            this.inputVazaoBombeio.Name = "inputVazaoBombeio";
-            this.inputVazaoBombeio.Size = new System.Drawing.Size(120, 20);
-            this.inputVazaoBombeio.TabIndex = 3;
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -299,11 +263,20 @@
             this.groupBox16.TabIndex = 43;
             this.groupBox16.TabStop = false;
             // 
+            // PotenciaHidraulicaInput
+            // 
+            this.PotenciaHidraulicaInput.Location = new System.Drawing.Point(188, 25);
+            this.PotenciaHidraulicaInput.Name = "PotenciaHidraulicaInput";
+            this.PotenciaHidraulicaInput.ReadOnly = true;
+            this.PotenciaHidraulicaInput.Size = new System.Drawing.Size(120, 20);
+            this.PotenciaHidraulicaInput.TabIndex = 3;
+            // 
             // comboBox5
             // 
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
-            "HP"});
+            "HP",
+            "KW"});
             this.comboBox5.Location = new System.Drawing.Point(460, 22);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(89, 21);
@@ -330,19 +303,19 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // comboBox6
+            // inputFormula
             // 
-            this.comboBox6.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox6.ForeColor = System.Drawing.SystemColors.Menu;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.inputFormula.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.inputFormula.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.inputFormula.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.inputFormula.FormattingEnabled = true;
+            this.inputFormula.Items.AddRange(new object[] {
             "Potência Hidráulica e do Motor",
             "Vazão através da válvula"});
-            this.comboBox6.Location = new System.Drawing.Point(47, 9);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(343, 21);
-            this.comboBox6.TabIndex = 41;
+            this.inputFormula.Location = new System.Drawing.Point(47, 9);
+            this.inputFormula.Name = "inputFormula";
+            this.inputFormula.Size = new System.Drawing.Size(343, 21);
+            this.inputFormula.TabIndex = 41;
             // 
             // groupBox3
             // 
@@ -354,56 +327,86 @@
             this.groupBox3.TabIndex = 50;
             this.groupBox3.TabStop = false;
             // 
+            // inputVazaoBombeio
+            // 
+            this.inputVazaoBombeio.Location = new System.Drawing.Point(188, 30);
+            this.inputVazaoBombeio.Name = "inputVazaoBombeio";
+            this.inputVazaoBombeio.Size = new System.Drawing.Size(120, 20);
+            this.inputVazaoBombeio.TabIndex = 39;
+            this.inputVazaoBombeio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
+            // 
+            // inputEficienciaBomba
+            // 
+            this.inputEficienciaBomba.Location = new System.Drawing.Point(188, 18);
+            this.inputEficienciaBomba.Name = "inputEficienciaBomba";
+            this.inputEficienciaBomba.Size = new System.Drawing.Size(120, 20);
+            this.inputEficienciaBomba.TabIndex = 5;
+            this.inputEficienciaBomba.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
+            // 
             // inputEficienciaMotor
             // 
-            this.inputEficienciaMotor.Location = new System.Drawing.Point(188, 19);
+            this.inputEficienciaMotor.Location = new System.Drawing.Point(188, 26);
             this.inputEficienciaMotor.Name = "inputEficienciaMotor";
             this.inputEficienciaMotor.Size = new System.Drawing.Size(120, 20);
-            this.inputEficienciaMotor.TabIndex = 51;
+            this.inputEficienciaMotor.TabIndex = 6;
+            this.inputEficienciaMotor.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.inputEficienciaMotor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
             // inputFatorPotencia
             // 
             this.inputFatorPotencia.Location = new System.Drawing.Point(188, 18);
             this.inputFatorPotencia.Name = "inputFatorPotencia";
             this.inputFatorPotencia.Size = new System.Drawing.Size(120, 20);
-            this.inputFatorPotencia.TabIndex = 52;
+            this.inputFatorPotencia.TabIndex = 7;
+            this.inputFatorPotencia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
-            // inputPressaoSuccao
+            // label16
             // 
-            this.inputPressaoSuccao.Location = new System.Drawing.Point(188, 30);
-            this.inputPressaoSuccao.Name = "inputPressaoSuccao";
-            this.inputPressaoSuccao.Size = new System.Drawing.Size(120, 20);
-            this.inputPressaoSuccao.TabIndex = 53;
+            this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.Color.Blue;
+            this.label16.Location = new System.Drawing.Point(30, 29);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(98, 13);
+            this.label16.TabIndex = 17;
+            this.label16.Text = "Eficiência do Motor";
             // 
-            // inputEficienciaBomba
+            // label1
             // 
-            this.inputEficienciaBomba.Location = new System.Drawing.Point(188, 19);
-            this.inputEficienciaBomba.Name = "inputEficienciaBomba";
-            this.inputEficienciaBomba.Size = new System.Drawing.Size(120, 20);
-            this.inputEficienciaBomba.TabIndex = 52;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(491, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(19, 16);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "%";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.inputEficienciaMotor);
+            this.groupBox9.Controls.Add(this.label1);
+            this.groupBox9.Controls.Add(this.label16);
+            this.groupBox9.Location = new System.Drawing.Point(47, 417);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(620, 56);
+            this.groupBox9.TabIndex = 49;
+            this.groupBox9.TabStop = false;
             // 
             // inputPressaoDescarga
             // 
-            this.inputPressaoDescarga.Location = new System.Drawing.Point(188, 23);
+            this.inputPressaoDescarga.Location = new System.Drawing.Point(188, 22);
             this.inputPressaoDescarga.Name = "inputPressaoDescarga";
             this.inputPressaoDescarga.Size = new System.Drawing.Size(120, 20);
-            this.inputPressaoDescarga.TabIndex = 53;
+            this.inputPressaoDescarga.TabIndex = 18;
+            this.inputPressaoDescarga.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
-            // PotenciaHidraulicaInput
+            // inputPressaoSuccao
             // 
-            this.PotenciaHidraulicaInput.Location = new System.Drawing.Point(188, 25);
-            this.PotenciaHidraulicaInput.Name = "PotenciaHidraulicaInput";
-            this.PotenciaHidraulicaInput.ReadOnly = true;
-            this.PotenciaHidraulicaInput.Size = new System.Drawing.Size(120, 20);
-            this.PotenciaHidraulicaInput.TabIndex = 3;
-            // 
-            // PotenciaMotorInput
-            // 
-            this.PotenciaMotorInput.Location = new System.Drawing.Point(188, 25);
-            this.PotenciaMotorInput.Name = "PotenciaMotorInput";
-            this.PotenciaMotorInput.ReadOnly = true;
-            this.PotenciaMotorInput.Size = new System.Drawing.Size(120, 20);
-            this.PotenciaMotorInput.TabIndex = 4;
+            this.inputPressaoSuccao.Location = new System.Drawing.Point(188, 22);
+            this.inputPressaoSuccao.Name = "inputPressaoSuccao";
+            this.inputPressaoSuccao.Size = new System.Drawing.Size(120, 20);
+            this.inputPressaoSuccao.TabIndex = 34;
+            this.inputPressaoSuccao.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
             // FrmBomba
             // 
@@ -419,32 +422,27 @@
             this.Controls.Add(this.groupBox14);
             this.Controls.Add(this.groupBox16);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox6);
+            this.Controls.Add(this.inputFormula);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmBomba";
             this.Text = "FrmBomba";
+            this.Load += new System.EventHandler(this.FrmBomba_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
             this.groupBox14.ResumeLayout(false);
             this.groupBox14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.inputVazaoBombeio)).EndInit();
             this.groupBox16.ResumeLayout(false);
             this.groupBox16.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.inputEficienciaMotor)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputFatorPotencia)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputPressaoSuccao)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputEficienciaBomba)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputPressaoDescarga)).EndInit();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -454,8 +452,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox11;
         private System.Windows.Forms.Label label17;
@@ -473,16 +469,18 @@
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox inputFormula;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown inputVazaoBombeio;
-        private System.Windows.Forms.NumericUpDown inputPressaoDescarga;
-        private System.Windows.Forms.NumericUpDown inputEficienciaMotor;
-        private System.Windows.Forms.NumericUpDown inputEficienciaBomba;
-        private System.Windows.Forms.NumericUpDown inputPressaoSuccao;
-        private System.Windows.Forms.NumericUpDown inputFatorPotencia;
         private System.Windows.Forms.TextBox PotenciaMotorInput;
         private System.Windows.Forms.TextBox PotenciaHidraulicaInput;
+        private System.Windows.Forms.TextBox inputEficienciaMotor;
+        private System.Windows.Forms.TextBox inputEficienciaBomba;
+        private System.Windows.Forms.TextBox inputVazaoBombeio;
+        private System.Windows.Forms.TextBox inputFatorPotencia;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.TextBox inputPressaoDescarga;
+        private System.Windows.Forms.TextBox inputPressaoSuccao;
     }
 }

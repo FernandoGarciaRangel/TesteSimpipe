@@ -121,5 +121,10 @@ namespace TesteSimpipe
             
             
         }
+
+        private void válvulaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormShow(new FrmValvula());
+        }
     }
 }

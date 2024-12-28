@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Valvula.cs" />
     <Compile Include="View\FrmBomba.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +77,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\FrmValvula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmValvula.Designer.cs">
+      <DependentUpon>FrmValvula.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="View\FrmBomba.resx">
       <DependentUpon>FrmBomba.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +98,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\FrmValvula.resx">
+      <DependentUpon>FrmValvula.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
