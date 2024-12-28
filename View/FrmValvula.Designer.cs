@@ -27,22 +27,22 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.inputCoeficienteValvula = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.PotenciaMotorInput = new System.Windows.Forms.TextBox();
+            this.inputPressaoDescarga = new System.Windows.Forms.TextBox();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.inputDensidadeRelativa = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.inputVazaoBombeio = new System.Windows.Forms.TextBox();
+            this.inputPressaoSuccao = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.PotenciaHidraulicaInput = new System.Windows.Forms.TextBox();
+            this.outputVazaoValvula = new System.Windows.Forms.TextBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -56,7 +56,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.inputCoeficienteValvula);
             this.groupBox2.Controls.Add(this.label25);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Location = new System.Drawing.Point(47, 231);
@@ -65,12 +65,12 @@
             this.groupBox2.TabIndex = 46;
             this.groupBox2.TabStop = false;
             // 
-            // textBox1
+            // inputCoeficienteValvula
             // 
-            this.textBox1.Location = new System.Drawing.Point(188, 22);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 20);
-            this.textBox1.TabIndex = 41;
+            this.inputCoeficienteValvula.Location = new System.Drawing.Point(188, 22);
+            this.inputCoeficienteValvula.Name = "inputCoeficienteValvula";
+            this.inputCoeficienteValvula.Size = new System.Drawing.Size(120, 20);
+            this.inputCoeficienteValvula.TabIndex = 41;
             // 
             // label25
             // 
@@ -108,7 +108,7 @@
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.PotenciaMotorInput);
+            this.groupBox1.Controls.Add(this.inputPressaoDescarga);
             this.groupBox1.Controls.Add(this.label20);
             this.groupBox1.Location = new System.Drawing.Point(47, 107);
             this.groupBox1.Name = "groupBox1";
@@ -127,17 +127,16 @@
             this.label3.TabIndex = 41;
             this.label3.Text = "psi";
             // 
-            // PotenciaMotorInput
+            // inputPressaoDescarga
             // 
-            this.PotenciaMotorInput.Location = new System.Drawing.Point(188, 25);
-            this.PotenciaMotorInput.Name = "PotenciaMotorInput";
-            this.PotenciaMotorInput.ReadOnly = true;
-            this.PotenciaMotorInput.Size = new System.Drawing.Size(120, 20);
-            this.PotenciaMotorInput.TabIndex = 4;
+            this.inputPressaoDescarga.Location = new System.Drawing.Point(188, 25);
+            this.inputPressaoDescarga.Name = "inputPressaoDescarga";
+            this.inputPressaoDescarga.Size = new System.Drawing.Size(120, 20);
+            this.inputPressaoDescarga.TabIndex = 4;
             // 
             // groupBox11
             // 
-            this.groupBox11.Controls.Add(this.textBox3);
+            this.groupBox11.Controls.Add(this.inputDensidadeRelativa);
             this.groupBox11.Controls.Add(this.label18);
             this.groupBox11.Location = new System.Drawing.Point(47, 293);
             this.groupBox11.Name = "groupBox11";
@@ -145,12 +144,12 @@
             this.groupBox11.TabIndex = 47;
             this.groupBox11.TabStop = false;
             // 
-            // textBox3
+            // inputDensidadeRelativa
             // 
-            this.textBox3.Location = new System.Drawing.Point(188, 22);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(120, 20);
-            this.textBox3.TabIndex = 42;
+            this.inputDensidadeRelativa.Location = new System.Drawing.Point(188, 22);
+            this.inputDensidadeRelativa.Name = "inputDensidadeRelativa";
+            this.inputDensidadeRelativa.Size = new System.Drawing.Size(120, 20);
+            this.inputDensidadeRelativa.TabIndex = 42;
             // 
             // label18
             // 
@@ -174,7 +173,7 @@
             // 
             // groupBox14
             // 
-            this.groupBox14.Controls.Add(this.inputVazaoBombeio);
+            this.groupBox14.Controls.Add(this.inputPressaoSuccao);
             this.groupBox14.Controls.Add(this.label23);
             this.groupBox14.Controls.Add(this.label22);
             this.groupBox14.Location = new System.Drawing.Point(47, 169);
@@ -183,12 +182,12 @@
             this.groupBox14.TabIndex = 45;
             this.groupBox14.TabStop = false;
             // 
-            // inputVazaoBombeio
+            // inputPressaoSuccao
             // 
-            this.inputVazaoBombeio.Location = new System.Drawing.Point(188, 25);
-            this.inputVazaoBombeio.Name = "inputVazaoBombeio";
-            this.inputVazaoBombeio.Size = new System.Drawing.Size(120, 20);
-            this.inputVazaoBombeio.TabIndex = 40;
+            this.inputPressaoSuccao.Location = new System.Drawing.Point(188, 25);
+            this.inputPressaoSuccao.Name = "inputPressaoSuccao";
+            this.inputPressaoSuccao.Size = new System.Drawing.Size(120, 20);
+            this.inputPressaoSuccao.TabIndex = 40;
             // 
             // label23
             // 
@@ -204,7 +203,7 @@
             // groupBox16
             // 
             this.groupBox16.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.groupBox16.Controls.Add(this.PotenciaHidraulicaInput);
+            this.groupBox16.Controls.Add(this.outputVazaoValvula);
             this.groupBox16.Controls.Add(this.comboBox5);
             this.groupBox16.Controls.Add(this.label26);
             this.groupBox16.Location = new System.Drawing.Point(47, 45);
@@ -213,13 +212,14 @@
             this.groupBox16.TabIndex = 43;
             this.groupBox16.TabStop = false;
             // 
-            // PotenciaHidraulicaInput
+            // outputVazaoValvula
             // 
-            this.PotenciaHidraulicaInput.Location = new System.Drawing.Point(188, 25);
-            this.PotenciaHidraulicaInput.Name = "PotenciaHidraulicaInput";
-            this.PotenciaHidraulicaInput.ReadOnly = true;
-            this.PotenciaHidraulicaInput.Size = new System.Drawing.Size(120, 20);
-            this.PotenciaHidraulicaInput.TabIndex = 3;
+            this.outputVazaoValvula.Location = new System.Drawing.Point(188, 25);
+            this.outputVazaoValvula.Name = "outputVazaoValvula";
+            this.outputVazaoValvula.ReadOnly = true;
+            this.outputVazaoValvula.Size = new System.Drawing.Size(120, 20);
+            this.outputVazaoValvula.TabIndex = 3;
+            this.outputVazaoValvula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
             // comboBox5
             // 
@@ -315,11 +315,11 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox inputFormula;
-        private System.Windows.Forms.TextBox PotenciaMotorInput;
-        private System.Windows.Forms.TextBox PotenciaHidraulicaInput;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox inputVazaoBombeio;
+        private System.Windows.Forms.TextBox inputPressaoDescarga;
+        private System.Windows.Forms.TextBox outputVazaoValvula;
+        private System.Windows.Forms.TextBox inputCoeficienteValvula;
+        private System.Windows.Forms.TextBox inputDensidadeRelativa;
+        private System.Windows.Forms.TextBox inputPressaoSuccao;
         private System.Windows.Forms.Label label3;
     }
 }

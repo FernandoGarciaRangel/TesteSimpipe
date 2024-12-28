@@ -17,6 +17,7 @@ namespace TesteSimpipe
         public FrmBomba()
         {
             InitializeComponent();
+            //DADOS PARA TESTE
             inputVazaoBombeio.Text = "3600";
             inputPressaoSuccao.Text = "1";
             inputPressaoDescarga.Text = "5";
@@ -38,17 +39,7 @@ namespace TesteSimpipe
         }
         // Método calcular bomba
         private void button1_Click(object sender, EventArgs e)
-        {
-            //PotenciaHidraulicaInput.Text = "";
-            //PotenciaMotorInput.Text = "";
-            //var msgErros = "";
-            ////Peguei
-           
-
-
-           
-            if (inputFormula.Text == "Potência Hidráulica e do Motor")
-            {
+        {    
                 var vazaoBombeio = Bomba.ConverterVazaoParaM3s(double.Parse(inputVazaoBombeio.Text), "m³/s");
                 var pressaoSuccao = Bomba.ConverterPressaoParaPa(double.Parse(inputPressaoSuccao.Text), "kgf/cm²");
                 var pressaoDescarga = Bomba.ConverterPressaoParaPa(double.Parse(inputPressaoDescarga.Text), "kgf/cm²");
@@ -59,16 +50,7 @@ namespace TesteSimpipe
                 PotenciaHidraulicaInput.Text = bomba.CalcularPotenciaHidraulica().ToString();
                 PotenciaMotorInput.Text = bomba.CalcularPotenciaMotor().ToString();
 
-                MessageBox.Show("Deu certo");
-            } else if (inputFormula.Text == "Vazão através da válvula") 
-            {
-                
-            }
-
-
-
-
-            
+            MessageBox.Show("Deu certo");
  
             //ssMessageBox.Show(teste.ToString());
         }
