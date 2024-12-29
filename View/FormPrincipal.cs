@@ -38,71 +38,20 @@ namespace TesteSimpipe
             }
             }
         
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void menuStrip3_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void Ajuda_Popup(object sender, PopupEventArgs e)
-        {
-
-        }
+     
 
         private void ajudaToolStripMenuItem1_Click(object sender, EventArgs e)
         {            
-            MessageBox.Show("Clique em Bomba ou válvula para iniciar os cálculos, logo após insira os dados para calculo. Letras vermelhas são ");
+            MessageBox.Show("Clique em Bomba ou válvula para iniciar os cálculos, logo após insira os dados para calculo. Letras vermelhas são variáveis de saída, e as azuis são variáveis de entrada.");
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void bombaToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -115,6 +64,11 @@ namespace TesteSimpipe
         private void válvulaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormShow(new FrmValvula());
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

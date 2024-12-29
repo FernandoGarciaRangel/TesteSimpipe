@@ -70,7 +70,8 @@
             this.inputCoeficienteValvula.Location = new System.Drawing.Point(273, 22);
             this.inputCoeficienteValvula.Name = "inputCoeficienteValvula";
             this.inputCoeficienteValvula.Size = new System.Drawing.Size(120, 20);
-            this.inputCoeficienteValvula.TabIndex = 41;
+            this.inputCoeficienteValvula.TabIndex = 4;
+            this.inputCoeficienteValvula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
             // label25
             // 
@@ -81,7 +82,6 @@
             this.label25.Size = new System.Drawing.Size(113, 13);
             this.label25.TabIndex = 34;
             this.label25.Text = "Coeficiente da Válvula";
-            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // label2
             // 
@@ -132,7 +132,8 @@
             this.inputPressaoDescarga.Location = new System.Drawing.Point(273, 25);
             this.inputPressaoDescarga.Name = "inputPressaoDescarga";
             this.inputPressaoDescarga.Size = new System.Drawing.Size(120, 20);
-            this.inputPressaoDescarga.TabIndex = 4;
+            this.inputPressaoDescarga.TabIndex = 2;
+            this.inputPressaoDescarga.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
             // groupBox11
             // 
@@ -149,7 +150,9 @@
             this.inputDensidadeRelativa.Location = new System.Drawing.Point(273, 22);
             this.inputDensidadeRelativa.Name = "inputDensidadeRelativa";
             this.inputDensidadeRelativa.Size = new System.Drawing.Size(120, 20);
-            this.inputDensidadeRelativa.TabIndex = 42;
+            this.inputDensidadeRelativa.TabIndex = 5;
+            this.inputDensidadeRelativa.TextChanged += new System.EventHandler(this.inputDensidadeRelativa_TextChanged);
+            this.inputDensidadeRelativa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
             // label18
             // 
@@ -187,7 +190,8 @@
             this.inputPressaoSuccao.Location = new System.Drawing.Point(273, 25);
             this.inputPressaoSuccao.Name = "inputPressaoSuccao";
             this.inputPressaoSuccao.Size = new System.Drawing.Size(120, 20);
-            this.inputPressaoSuccao.TabIndex = 40;
+            this.inputPressaoSuccao.TabIndex = 3;
+            this.inputPressaoSuccao.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
             // label23
             // 
@@ -218,7 +222,7 @@
             this.outputVazaoValvula.Name = "outputVazaoValvula";
             this.outputVazaoValvula.ReadOnly = true;
             this.outputVazaoValvula.Size = new System.Drawing.Size(120, 20);
-            this.outputVazaoValvula.TabIndex = 3;
+            this.outputVazaoValvula.TabIndex = 1;
             this.outputVazaoValvula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidarNumeral);
             // 
             // comboBox5
@@ -242,12 +246,14 @@
             this.labelFormula.Size = new System.Drawing.Size(128, 13);
             this.labelFormula.TabIndex = 0;
             this.labelFormula.Text = "Vazão através da Válvula";
-            this.labelFormula.Click += new System.EventHandler(this.label26_Click);
             // 
             // button1
             // 
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.Location = new System.Drawing.Point(507, 9);
             this.button1.Name = "button1";
+            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button1.Size = new System.Drawing.Size(160, 21);
             this.button1.TabIndex = 42;
             this.button1.Text = "Calcular";

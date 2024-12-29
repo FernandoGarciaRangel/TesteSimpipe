@@ -8,9 +8,7 @@ namespace TesteSimpipe
 {
     internal static class Program
     {
-        /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
-        /// </summary>
+      
         [STAThread]
         static void Main()
         {
@@ -18,7 +16,7 @@ namespace TesteSimpipe
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormPrincipal());
             
-            //Application.Run(new FormBomba());
+         
         }
     }
 }

@@ -20,9 +20,7 @@ namespace TesteSimpipe
             InitializeComponent();
         }
 
-        /// <summary>
-        /// Impede que o usuário digite letras ou espaços em campos numéricos.
-        /// </summary>
+     
         public void validarNumeral(KeyPressEventArgs e)
         {
             char teclaDigitada = e.KeyChar;
@@ -32,77 +30,55 @@ namespace TesteSimpipe
             }
         }
 
-        private void FrmValvula_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            // Aqui poderia iniciar algo, se necessário
-        }
+            double pressaoDescarga = double.Parse(inputPressaoDescarga.Text);
+            double pressaoSuccao = double.Parse(inputPressaoSuccao.Text);
+            double coeficienteValvula = double.Parse(inputCoeficienteValvula.Text);
+            double densidadeRelativa = double.Parse(inputDensidadeRelativa.Text);
 
-        private void label26_Click(object sender, EventArgs e)
-        {
-            // Evento de label (sem uso)
-        }
+            double pressaoDescargaPsi = Valvula.ConverterPressaoParaPsi(pressaoDescarga, "psi");
+            double pressaoSuccaoPsi = Valvula.ConverterPressaoParaPsi(pressaoSuccao, "psi");
 
-        private void label25_Click(object sender, EventArgs e)
-        { }
-     
-        private void button1_Click(object sender, EventArgs e)       
-        {
            
-                // 1) Ler valores digitados (em psi)
-                double pressaoDescarga = double.Parse(inputPressaoDescarga.Text);
-                double pressaoSuccao = double.Parse(inputPressaoSuccao.Text);
-                double coeficienteValvula = double.Parse(inputCoeficienteValvula.Text);
-                double densidadeRelativa = double.Parse(inputDensidadeRelativa.Text);
+            Valvula valvula = new Valvula(pressaoDescargaPsi, pressaoSuccaoPsi, coeficienteValvula, densidadeRelativa);
 
-                // 2) Se os valores já estão em psi, chame:
-                //    ConverterPressaoParaPsi(valor, "psi") 
-                //    ou nem chame e use direto.
-                double pressaoDescargaPsi = Valvula.ConverterPressaoParaPsi(pressaoDescarga, "psi");
-                double pressaoSuccaoPsi = Valvula.ConverterPressaoParaPsi(pressaoSuccao, "psi");
+            double Q = valvula.CalcularVazao();
+            double perdaPressao = valvula.CalcularPerdaPressao(Q);
+            double CVcalculado = valvula.CalcularCoeficienteValvula(Q);
 
-                // 3) Atribuir aos campos estáticos da classe Valvula
-                Valvula.PressaoDescarga = pressaoDescargaPsi;
-                Valvula.PressaoSuccao = pressaoSuccaoPsi;
-                Valvula.CoeficienteValvula = coeficienteValvula;
-                Valvula.DensidadeRelativaProduto = densidadeRelativa;
-
-                // 4) Calcular vazão e perda de pressão
-                double Q = Valvula.CalcularVazao();
-                double perdaPressao = new Valvula(Valvula.PressaoDescarga,Valvula.PressaoSuccao,Valvula.CoeficienteValvula,Valvula.DensidadeRelativaProduto).CalcularPerdaPressao(Q);
-
-                // 5) Calcular coeficiente (reverso)
-                double CVcalculado = Valvula.CalcularCoeficienteValvula(Q);
-
-            if(inputFormula.Text == "Vazão Através da Válvula") {
+            if (inputFormula.Text == "Vazão Através da Válvula")
+            {
                 labelFormula.Text = "Vazão Através da Válvula";
                 outputVazaoValvula.Text = Q.ToString();
-            }else if(inputFormula.Text == "Perda de Pressão Através da Válvula")
+            }
+            else if (inputFormula.Text == "Perda de Pressão Através da Válvula")
             {
                 labelFormula.Text = "Perda de Pressão Através da Válvula";
                 outputVazaoValvula.Text = perdaPressao.ToString();
-            }else if (inputFormula.Text == "Coeficiente de Vazão"){
+            }
+            else if (inputFormula.Text == "Coeficiente de Vazão")
+            {
                 labelFormula.Text = "Coeficiente de Vazão";
                 outputVazaoValvula.Text = CVcalculado.ToString();
             }
-
-                // 6) Exibir resultados
-                MessageBox.Show(
-                    $"Vazão (Q) = {Q}\n" +
-                    $"ΔP = {perdaPressao}\n" +
-                    $"CV calculado = {CVcalculado}"
-                );
-            }
-           
-           
-              
-          
-        
+        }
 
 
 
         private void ValidarNumeral(object sender, KeyPressEventArgs e)
         {
             validarNumeral(e);
+        }
+
+        private void FrmValvula_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void inputDensidadeRelativa_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

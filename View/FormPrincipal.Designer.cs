@@ -116,22 +116,23 @@
             this.válvulaToolStripMenuItem});
             this.NavBar.Location = new System.Drawing.Point(9, 48);
             this.NavBar.Name = "NavBar";
-            this.NavBar.Size = new System.Drawing.Size(241, 24);
+            this.NavBar.Size = new System.Drawing.Size(153, 24);
             this.NavBar.TabIndex = 2;
             this.NavBar.Text = "menuStrip3";
-            this.NavBar.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip3_ItemClicked);
             // 
             // BtnBombaStripMenu
             // 
+            this.BtnBombaStripMenu.Image = ((System.Drawing.Image)(resources.GetObject("BtnBombaStripMenu.Image")));
             this.BtnBombaStripMenu.Name = "BtnBombaStripMenu";
-            this.BtnBombaStripMenu.Size = new System.Drawing.Size(57, 20);
+            this.BtnBombaStripMenu.Size = new System.Drawing.Size(73, 20);
             this.BtnBombaStripMenu.Text = "Bomba";
             this.BtnBombaStripMenu.Click += new System.EventHandler(this.bombaToolStripMenuItem_Click);
             // 
             // válvulaToolStripMenuItem
             // 
+            this.válvulaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("válvulaToolStripMenuItem.Image")));
             this.válvulaToolStripMenuItem.Name = "válvulaToolStripMenuItem";
-            this.válvulaToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.válvulaToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.válvulaToolStripMenuItem.Text = "Válvula";
             this.válvulaToolStripMenuItem.Click += new System.EventHandler(this.válvulaToolStripMenuItem_Click);
             // 
@@ -144,13 +145,11 @@
             this.label9.Size = new System.Drawing.Size(730, 26);
             this.label9.TabIndex = 4;
             this.label9.Text = "Ocioso";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // Ajuda
             // 
             this.Ajuda.OwnerDraw = true;
             this.Ajuda.StripAmpersands = true;
-            this.Ajuda.Popup += new System.Windows.Forms.PopupEventHandler(this.Ajuda_Popup);
             // 
             // panelForm
             // 
@@ -169,10 +168,11 @@
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.NavBar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormPrincipal";
             this.Text = "Calculadora de Equipamentos";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.menuStrip2.ResumeLayout(false);

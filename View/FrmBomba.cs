@@ -18,8 +18,8 @@ namespace TesteSimpipe
         public FrmBomba()
         {
             InitializeComponent();
-           
-         
+
+
             inputFormula.Text = "Potência Hidráulica e do Motor";
         }
         public void validarNumeral(KeyPressEventArgs e)
@@ -28,18 +28,8 @@ namespace TesteSimpipe
             if (char.IsLetter(teclaDigitada) || char.IsWhiteSpace(teclaDigitada))
                 e.Handled = true;
         }
-
-        private void textBox10_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        
         private void button1_Click(object sender, EventArgs e)
         {
-
-           
-
-
             var vazaoBombeio = Bomba.ConverterVazaoParaM3s(double.Parse(inputVazaoBombeio.Text), "m³/s");
             var pressaoSuccao = Bomba.ConverterPressaoParaPa(double.Parse(inputPressaoSuccao.Text), "kgf/cm²");
             var pressaoDescarga = Bomba.ConverterPressaoParaPa(double.Parse(inputPressaoDescarga.Text), "kgf/cm²");
@@ -50,24 +40,13 @@ namespace TesteSimpipe
             PotenciaHidraulicaInput.Text = bomba.CalcularPotenciaHidraulica(inputUnidadeMedida1.Text).ToString();
             PotenciaMotorInput.Text = bomba.CalcularPotenciaMotor(inputUnidadeMedida1.Text).ToString();
 
-            MessageBox.Show("Deu certo");
- 
-           
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void ValidarNumeral(object sender, KeyPressEventArgs e)
         {
             validarNumeral(e);
         }
 
-        private void FrmBomba_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

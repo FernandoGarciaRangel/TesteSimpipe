@@ -31,8 +31,6 @@ namespace TesteSimpipe.Models
         public double EficienciaHidraulica { get; set; }
         public double EficienciaMotor { get; set; }
         public double FatorPotenciaMotor { get; set; }
-
-        // Métodos de Cálculo
         public double CalcularPotenciaHidraulica(string Unidade)
         {
             
@@ -61,7 +59,7 @@ namespace TesteSimpipe.Models
 
        
 
-    // Métodos de Conversão
+  
 
         public static double ConverterParaPercentual(double valor)
         {
